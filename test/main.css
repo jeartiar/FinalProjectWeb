@@ -1,0 +1,89 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.a { width: 210px;
+height: 55px;
+text-decoration: none;
+color: black;}
+.b { width: 210px;
+  height: 55px;}
+  .c { width: 210px;
+    height: 55px;}
+    .d{ width: 210px;
+      height: 55px;}
+      .e{ width: 210px;
+        height: 55px;}
+        .f{ width: 210px;
+          height: 55px;}
+      
+          
+          .grid-containe {
+            display: grid;
+            gap: 10px;
+            padding: 10px;
+          }
+          
+         
+          
+          
+          .item1 {
+         grid-row: 1/span 1;
+         grid-column: 1/span 75;
+        height: 50px;
+           
+          }
+          
+          .item2 {
+            grid-column: 80/span 80;
+            grid-row: 1 / span 5;
+           
+         
+          }
+          
+          .item3 {
+            grid-column: 1 / span 75;
+            grid-row: 2;
+            height:900px
+          }
+          .grid-contain {
+            display: grid;
+            gap: 200px;
+            padding: 10px;
+            display: flex;
+            flex-flow: row wrap;
+          }
+          .book {
+            margin-left: 50px;
+            width: 550px;
+            height: 750px;
+          }
+.bookinfo {
+  margin-top: 50px;
+  width: 950px;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F9F5EB;
+}
+.blej {
+  width: 150px;
+  height: 150px;
+  background-color: cyan;
+  text-decoration: none;
+}
+       
